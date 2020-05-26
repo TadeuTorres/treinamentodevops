@@ -23,10 +23,12 @@ Objetivo: Vincular o repositório Git, criado no Exercício 1, a um repositório
 
 ### Instruções
 
-1 - Criar um repositório no Azure DevOps chamado Lab2
-2 - Vincular o repositório local ao repositório remoto
-3 - Realizar o push do código fonte para o repositório remoto
-4 - Através da interface gráfica do Azure DevOps, garantir que o código fonte foi armazenado com sucesso.
+<ol>
+    <li> Criar um repositório no Azure DevOps chamado Lab2
+    <li> Vincular o repositório local ao repositório remoto
+    <li> Realizar o push do código fonte para o repositório remoto
+    <li> Através da interface gráfica do Azure DevOps, garantir que o código fonte foi armazenado com sucesso.
+</ol>
 
 ## Exercício 3
 
@@ -34,9 +36,11 @@ Objetivo: Vincular o repositório Git, criado no Exercício 1, a um repositório
 
 ### Instruções
 
-1 - Criar um repositório no Azure DevOps chamado Lab2
-2 - Vincular o repositório local ao repositório remoto
-3 - Realizar o push do código fonte para o repositório remoto
-4 - Através da interface gráfica do Azure DevOps, garantir que o código fonte foi armazenado com sucesso.
+<ol>
+    <li> Criar um repositório no Azure DevOps chamado Lab2
+    <li> Vincular o repositório local ao repositório remoto
+    <li> Realizar o push do código fonte para o repositório remoto
+    <li> Através da interface gráfica do Azure DevOps, garantir que o código fonte foi armazenado com sucesso.
+</ol>
 
 
