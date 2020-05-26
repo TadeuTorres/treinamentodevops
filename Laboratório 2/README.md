@@ -39,7 +39,7 @@ Objetivo: Aplicar políticas de validação ao branch de trabalho.
 <ol>
     <li> Através da linha de comando, criar um branch chamado <b>develop</b>
     <li> Enviar o branch criado ao repositório remoto
-    <li> Configurar uma validação no branch develop, de modo que todos os commits sejam revisados por um revisor.
+    <li> Configurar uma validação no branch develop, de modo que todos os commits sejam revisados por um membro da equipe.
     <li> Ainda no branch develop, através do Visual Studio, inclua a linha a seguir no método Main da classe program:
          ```csharp
             Console.WriteLine("Primeiros passos com o Git");
