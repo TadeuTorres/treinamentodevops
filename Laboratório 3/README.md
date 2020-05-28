@@ -47,4 +47,38 @@ Objetivo: Configurar gatilho, de modo que, qualquer alteração submetida ao bra
     <li> Acompanhar a execução e garantir que o processo foi executado com sucesso.
 </ol>
 
+## Exercício 4
 
+Objetivo: Configurar políticas restritivas aos branches de origem dos Pull Requests.
+
+### Instruções
+
+<ol>
+    <li> No Azure DevOps, funcionalidade <b>branch policies</b>, do branch master, vincular a CI <b>ci_lab3</b>, de modo que, todos os branches correspondentes aos PRs submetidos, sejam validados pela CI.
+    <li> Abrir a solução FlightReport no Visual Studio e remover os comentários do método <b>GetFlights</b>.
+    <li> Através da linha de comando, Realizar o commit e push da alteração para o branch master.
+    <li> Avaliar o resultado. Qual foi a resposta do git?
+    <li> Através da linha de comando, criar um branch chamado <b>feature/getflights</b> e realizar o push para o repositório remoto.
+    <li> No Azure DevOps, Criar um Pull Request (PR) do branch feature/getflights para o master.
+    <li> Verificar se um novo build foi iniciado e vinculado ao Pull Request (PR).
+</ol>
+
+## Exercício 5
+
+Objetivo: X
+
+### Instruções
+
+<ol>
+    <li> X </b>.
+</ol>
+
+## Exercício 6
+
+Objetivo: X
+
+### Instruções
+
+<ol>
+    <li> X </b>.
+</ol>
