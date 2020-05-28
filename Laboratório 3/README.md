@@ -59,7 +59,7 @@ Objetivo: Configurar políticas restritivas aos branches de origem dos Pull Requ
     <li> Através da linha de comando, Realizar o commit e push da alteração para o branch master.
     <li> Avaliar o resultado. Qual foi a resposta do git?
     <li> Através da linha de comando, criar um branch chamado <b>feature/getflights</b> e realizar o push para o repositório remoto.
-    <li> No Azure DevOps, Criar um Pull Request (PR) do branch feature/getflights para o master.
+    <li> No Azure DevOps, Criar um Pull Request (PR) do branch <b>feature/getflights</b> para o master.
     <li> Verificar se um novo build foi iniciado e vinculado ao Pull Request (PR).
 </ol>
 
