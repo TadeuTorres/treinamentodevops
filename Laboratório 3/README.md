@@ -4,6 +4,8 @@ Tempo estimado: 60 minutos
 
 Cenário: A empresa Flight Report S.A., possui um componente de software que permite a consulta de informações sobre os voos domésticos realizados no Canadá. Contudo, a governança e distribuição desse produto é 100% manual. A fim de resolver esse problema, a empresa contratou uma equipe especializada em integração contínua, com o objetivo de garantir a qualidade do código produzido, bem como, automatizar o delivery do componente.
 
+Observação: Utilizar o editor clássico (visual) para construir a CI.
+
 ## Exercício 1
  
 Objetivo: Integrar o código fonte a um repositório no Azure DevOps.
@@ -65,20 +67,31 @@ Objetivo: Configurar políticas restritivas aos branches de origem dos Pull Requ
 
 ## Exercício 5
 
-Objetivo: X
+Objetivo: Alterar a CI de modo que ela gere um pacote de distribuição para o componente (NuGet)
 
 ### Instruções
 
 <ol>
-    <li> X </b>.
+    <li> No Azure DevOps, incluir um step na CI <b>ci_lab3</b> para gerar um pacote NuGet.
+    <li> Executar a CI <b>ci_lab3</b>.
+    <li> Acompanhar a execução e garantir que o processo foi executado com sucesso.
+    <li> Verificar se o NuGet Package foi gerado na área de staging do Azure DevOps.
 </ol>
 
 ## Exercício 6
 
-Objetivo: X
+Objetivo: Habilitar a execução dos testes unitários
 
 ### Instruções
 
 <ol>
-    <li> X </b>.
+    <li> Na ferramenta de linha de comando, criar um branch chamado <b>feature/unittests</b>.
+    <li> Abrir a solução FlightReport no Visual Studio e habilitar o projeto FlightReport.Test.Unit.
+    <li> Realizar o commit e push das alterações.
+    <li> No Azure DevOps, incluir uma task na CI <b>ci_lab3</b> para executar os testes.
+    <li> Criar um PR do branch <b>feature/unittests</b> para o <b>master</b>.
+    <li> Aguardar a execução da CI para o branch <b>feature/unittests</b>.
+    <li> Ainda no Azure DevOps, realizar o complete do PR.
+    <li> Acompanhar a execução da CI para o branch master.
+    <li> Os testes foram executados com sucesso? O branch master foi alterado?
 </ol>
