@@ -27,7 +27,7 @@ Objetivo: Importar a CI
 
 <ol>
     <li> No Azure DevOps, importar a CI contida no diretório <b>c:\devops\lab4\demo1\ci.json</b>.
-    <li> Renomear a CI para <b>ci_lab4</b>.
+    <li> Renomear a CI importada para <b>ci_lab4</b>.
     <li> Realizar as adequações necessárias e salvar a CI <b>ci_lab4</b>.
 </ol>
 
