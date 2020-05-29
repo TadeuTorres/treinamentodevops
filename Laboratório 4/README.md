@@ -38,7 +38,7 @@ Objetivo: Criar Agent e Agent Pool.
 ### Instruções
 
 <ol>
-    <li> No Azure DevOps, em Project Settings, criar um Agent Pool do tipo Self-hosted, chamado Private Pool.
+    <li> No Azure DevOps, em Project Settings, criar um Agent Pool do tipo Self-hosted, chamado <b>Private Pool</b>.
     <li> Criar um novo Agent e realizar a vinculação dele ao Agent Pool <b>Private Poll</b>.
 </ol>
 
