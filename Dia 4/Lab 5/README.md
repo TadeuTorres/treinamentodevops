@@ -2,7 +2,7 @@
 
 Tempo estimado: 30 minutos
 
-Cenário: A empresa Freight S.A., possui um componente de software com funcionalidades de cálculo de frete.
+Cenário: A empresa Freight S.A., possui um componente de software com funcionalidades de cálculo de frete. A fim de, melhorar o relacionamento com o seus clientes, os gestores identificaram a necessidade de otimizar a entrega de novas versões do produto. Para isso, será necessário criar um Pipeline de deployment contínuo para o projeto.
 
 ## Exercício 1
  
