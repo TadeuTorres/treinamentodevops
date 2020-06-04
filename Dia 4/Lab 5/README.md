@@ -41,6 +41,18 @@ Objetivo: Criar a CD
     <li> Criar um CD, chamada <b>cd_lab5</b>.
     <li> Incluir como artifact da <b>cd_lab5</b> o pacote produzido pela <b>ci_lab5</b>.
     <li> Configurar gatilho, de modo que a CD seja iniciada sempre que um build for finalizado.
-    <li> Garantir que a CD public o nuget package gerado em um feed privado do Azure DevOps.
+    <li> Garantir que a CD publique o nuget package gerado em um feed privado do Azure DevOps.
+</ol>
+
+## Exercício 4
+
+Objetivo: Teste o uso do componente
+
+### Instruções
+
+<ol>
+    <li> Acesse o MS Visual Studio e no menu Tools, NuGet Package Manager, Package Manager Settings, configure o feed privado do Azure DevOps.
+    <li> Crie um projeto do tipo Console Application e instale o pacote da Freight S.A.
+    <li> Verifique se a calculadora está funcionando corretamente.
 </ol>
 
