@@ -10,8 +10,6 @@ Cenário:
 
 <p>Diante disso, a seguinte estratégia foi definida pelo gestor de TI da companhia.</p>
 
-<p>O código fonte do nosso e-commerce foi disponibilizado na pasta demo1.</p>
-
 <ol>
 
   <li> Criar um pipeline de integração contínua
@@ -22,3 +20,5 @@ Cenário:
   <li> Garantir que o endereço do ERP SAP, seja alterado durante a publicação, de acordo com o ambiente.
 
 </ol>
+
+<p><b>O código fonte do nosso e-commerce foi disponibilizado na pasta demo1.</b></p>
