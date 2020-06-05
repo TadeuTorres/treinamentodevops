@@ -18,7 +18,8 @@ Cenário:
   <li> Considerar o fluxo de trabalho <b>Git Flow</b> para atualizar os ambientes de homologação, treinamento e produção.
   <li> Garantir que o ambiente de treinamento seja atualizado juntamente com a produção.
   <li> Garantir que o endereço do ERP SAP, seja alterado durante a publicação, de acordo com o ambiente.
+  <li> O deploy deve considerar um site previamente criado no IIS, considerando o isolamento entre os ambientes.
 
 </ol>
 
-<p><b>O código fonte do nosso e-commerce foi disponibilizado na pasta demo1.</b></p>
+<p><b>O código fonte do e-commerce foi disponibilizado na pasta demo1.</b></p>
