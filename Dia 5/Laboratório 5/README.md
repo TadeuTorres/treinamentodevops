@@ -12,11 +12,11 @@ Cenário:
 
 <ol>
 
-  <li> Criar um pipeline de integração contínua
-  <li> Criar um pipeline de entrega contínua
-  <li> Validar as alterações enviadas pelas equipes de desenvolvimento, através de análises de código e execução de testes
-  <li> Considerar o fluxo de trabalho <b>Git Flow</b> para atualizar os ambientes de homologação, treinamento e produção
-  <li> Garantir que o ambiente de treinamento seja atualizado juntamente com a produção
+  <li> Criar um pipeline de integração contínua.
+  <li> Criar um pipeline de entrega contínua.
+  <li> Validar as alterações enviadas pelas equipes de desenvolvimento, através de análises de código e execução de testes.
+  <li> Considerar o fluxo de trabalho <b>Git Flow</b> para atualizar os ambientes de homologação, treinamento e produção.
+  <li> Garantir que o ambiente de treinamento seja atualizado juntamente com a produção.
   <li> Garantir que o endereço do ERP SAP, seja alterado durante a publicação, de acordo com o ambiente.
 
 </ol>
