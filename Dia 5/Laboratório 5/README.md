@@ -12,8 +12,8 @@ Cenário:
 
 <ol>
 
-  <li> Criar um pipeline de integração contínua.
-  <li> Criar um pipeline de entrega contínua.
+  <li> Criar uma estrutura de integração contínua.
+  <li> Criar uma estrutura de entrega contínua.
   <li> Validar as alterações enviadas pelas equipes de desenvolvimento, através de análises de código e execução de testes.
   <li> Considerar o fluxo de trabalho <b>Git Flow</b> para atualizar os ambientes de homologação, treinamento e produção.
   <li> Garantir que o ambiente de treinamento seja atualizado juntamente com a produção.
