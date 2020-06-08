@@ -35,7 +35,7 @@ Objetivo: Criar o código fonte para listar o preço das ações.
          </code></pre>
     <li> Qual foi o resultado?
     <li> Substituir o conteúdo do método <i>Main</i>, da classe <i>Program.cs</i> pelo código a seguir:
-    	  ```cs
+    	  ```csharp
             
             var random = new Random();
 
