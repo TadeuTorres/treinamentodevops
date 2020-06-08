@@ -35,20 +35,7 @@ Objetivo: Criar o código fonte para listar o preço das ações.
          </code></pre>
     <li> Qual foi o resultado?
     <li> Substituir o conteúdo do método <i>Main</i>, da classe <i>Program.cs</i> pelo código a seguir:
-    	  ```csharp
-            
-            var random = new Random();
-
-            while (true)
-            {
-                Console.WriteLine($"PETR4 {2 * random.Next()}");
-                Console.WriteLine($"MGLU3 {3 * random.Next()}");
-                Console.WriteLine($"AZUL4 {4 * random.Next()}");
-
-                await Task.Delay(2000);
-            }
-
-         ```
+    	  <img src="img1.png">
 
     <li> Ainda na classe <i>Program.cs</i>, importar o namespace "System.Threading.Tasks"
 </ol>
