@@ -35,7 +35,7 @@ Objetivo: Criar o código fonte para listar o preço das ações.
          </code></pre>
     <li> Qual foi o resultado?
     <li> Substituir o conteúdo do método <i>Main</i>, da classe <i>Program.cs</i> pelo código a seguir:
-    	  <img src="https://raw.githubusercontent.com/augustocbn/treinamentodevops/master/Dia%206/Laborat%C3%B3rio%206/img1.PNG" width="100px" height="100px">
+    	  <img src="https://raw.githubusercontent.com/augustocbn/treinamentodevops/master/Dia%206/Laborat%C3%B3rio%206/img1.PNG" width="400px" height="400px">
 
     <li> Ainda na classe <i>Program.cs</i>, importar o namespace "System.Threading.Tasks"
 </ol>
