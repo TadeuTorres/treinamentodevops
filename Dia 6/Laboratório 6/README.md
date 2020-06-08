@@ -83,7 +83,7 @@ Objetivo: Executar o monitor da Share Price S.A.
     <li> Qual foi o resultado?
 </ol>
 
-## Exercício 4
+## Exercício 5
 
 Objetivo: Esconder os vestígios
 
