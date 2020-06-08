@@ -78,6 +78,7 @@ Objetivo: Executar o monitor da Share Price S.A.
 <ol>
     <li> Executar o contêiner <b>share-price</b>
     <li> Executar comando para listar os contêineres ativos
+    <li> Qual foi o resultado?
     <li> Inspecionar a execução do contêiner
     <li> Qual foi o resultado?
 </ol>
