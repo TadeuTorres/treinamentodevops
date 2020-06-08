@@ -54,7 +54,7 @@ Objetivo: Criar uma imagem de contêiner
 
 <ol>
     <li> Criar o arquivo de configuração da imagem (Dockerfile)
-    <li> Construir a imagem chamada <b>share-price-img</b>
+    <li> Construir uma imagem chamada <b>share-price-img</b>
     <li> Verificar se a imagem foi registrada no repositório local
 </ol>
 
