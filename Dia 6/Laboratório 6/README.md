@@ -1,4 +1,4 @@
-# Laboratório 4
+# Laboratório 6
 
 Tempo estimado: 60 minutos
 
@@ -35,8 +35,8 @@ Objetivo: Criar o código fonte para listar o preço das ações.
          </code></pre>
     <li> Qual foi o resultado?
     <li> Substituir o conteúdo do método <i>Main</i>, da classe <i>Program.cs</i> pelo código a seguir:
-    	 <pre><code class='language-cs'>
-
+    	  ```cs
+            
             var random = new Random();
 
             while (true)
@@ -48,8 +48,9 @@ Objetivo: Criar o código fonte para listar o preço das ações.
                 await Task.Delay(2000);
             }
 
-         </code></pre>
-    <li> Ainda na classe <i>Program.cs</i>, importar o namespace "System.Threading.Tasks";
+         ```
+
+    <li> Ainda na classe <i>Program.cs</i>, importar o namespace "System.Threading.Tasks"
 </ol>
 
 ## Exercício 2
