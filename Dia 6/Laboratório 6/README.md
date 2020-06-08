@@ -34,46 +34,61 @@ Objetivo: Criar o código fonte para listar o preço das ações.
             dotnet run
          </code></pre>
     <li> Qual foi o resultado?
+    <li> Parar a execução do programa
     <li> Substituir o conteúdo do método <i>Main</i>, da classe <i>Program.cs</i> pelo código a seguir:
-    	  <img src="https://raw.githubusercontent.com/augustocbn/treinamentodevops/master/Dia%206/Laborat%C3%B3rio%206/img1.PNG" width="600px" height="400px">
+    	  <img src="https://raw.githubusercontent.com/augustocbn/treinamentodevops/master/Dia%206/Laborat%C3%B3rio%206/img1.PNG" width="700px" height="400px">
 
 <li> Ainda na classe <i>Program.cs</i>, importar o namespace "System.Threading.Tasks"
-    
+    <li> Extrair o pacote da aplicação através do comando:
+       	 <pre><code class='language-cs'>
+            dotnet publish -c release
+         </code></pre>
+
 </ol>
 
 ## Exercício 2
 
-Objetivo: Importar a CI
+Objetivo: Criar uma imagem de contêiner
 
 ### Instruções
 
 <ol>
-    <li> No Azure DevOps, importar a CI contida no diretório <b>c:\devops\lab4\demo1\ci.json</b>.
-    <li> Renomear a CI importada para <b>ci_lab4</b>.
-    <li> Realizar as adequações necessárias e salvar a CI <b>ci_lab4</b>.
+    <li> Criar o arquivo de configuração da imagem (Dockerfile)
+    <li> Construir a imagem chamada <b>share-price-img</b>
+    <li> Verificar se a imagem foi registrada no repositório local
 </ol>
 
 ## Exercício 3
 
-Objetivo: Criar Agent e Agent Pool.
+Objetivo: Criar um contêiner.
 
 ### Instruções
 
 <ol>
-    <li> No Azure DevOps, em Project Settings, criar um Agent Pool do tipo Self-hosted, chamado <b>Private Pool</b>.
-    <li> Criar um novo Agent e realizar a vinculação dele ao Agent Pool <b>Private Poll</b>.
+    <li> Criar um contêiner chamado <b>share-price</b>
+    <li> Verificar se o container foi registrado no repositório local
 </ol>
 
 ## Exercício 4
 
-Objetivo: Executar a CI <b>ci_lab4</b>.
+Objetivo: Executar o monitor da Share Price S.A.
 
 ### Instruções
 
 <ol>
-    <li> Executar a CI <b>ci_lab4</b>. Na tela de preparação, escolher o Agent Pool <b>Private Poll</b>.
+    <li> Executar o contêiner <b>share-price</b>
+    <li> Executar comando para listar os contêineres ativos
+    <li> Inspecionar a execução do contêiner
     <li> Qual foi o resultado?
-    <li> Adequar a CI <b>ci_lab4</b> para considerar o Agent Pool <b>Private Poll</b> como padrão.
-    <li> Executar a CI <b>ci_lab4</b>. O que mudou na tela de preparação?
-    <li> Qual foi o resultado?
+</ol>
+
+## Exercício 4
+
+Objetivo: Esconder os vestígios
+
+### Instruções
+
+<ol>
+    <li> Remover o contêiner <b>share-price</b>
+    <li> Remover a imagem <b>share-price-img</b>
 </ol>
