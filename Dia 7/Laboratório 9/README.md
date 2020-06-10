@@ -4,7 +4,7 @@ Tempo estimado: 20 minutos
 
 Cenário: 
 
-<p>O governo do estado do Espírito Santo disponibilizou uma API que lista todas as secretarias que compõem o estado.
+<p>O governo do estado do Espírito Santo disponibilizou uma API que lista todas as secretarias que compõem a administração do estado.
 
 Objetivo: 
 
