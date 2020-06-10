@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ConsoleApp59
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+﻿
             var numbers = new List<int>();
             var random = new Random();
 
@@ -19,6 +11,3 @@ namespace ConsoleApp59
             numbers.ForEach(n => Console.WriteLine($"{n} "));
 
             Console.ReadLine();
-        }
-    }
-}
