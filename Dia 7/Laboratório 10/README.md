@@ -29,7 +29,7 @@ Objetivo: Incluir a API no projeto
     <li> Executar a aplicação e testar o acesso a API <b>/aniversariante</b> através do navegador web.
     <li> Qual foi o resultado?
     <li> Inspecione a barra de tarefas do Docker no Visual Studio, ativada em modo debug.
-    <li> Na ferramenta de linha de comando, verifique os contêineres ativos na sua máquina.
+    <li> Na ferramenta de linha de comando, verifique os contêineres ativos em sua máquina.
     <li> Qual foi o resultado?
     <li> Ainda na linha de comando, verifica as imagens de contêiner disponíveis na sua máquina.
     <li> Qual foi o resultado?
@@ -42,7 +42,7 @@ Objetivo: Publicar a imagem no Docker Hub
 ### Instruções
 
 <ol>
-    <li> Através do Visual Studio, publicar a imagem criada no docker hub. Para isso, considere a criação da tag 1.0
+    <li> Através do Visual Studio, publicar a imagem criada no Docker Hub. Para isso, considere a criação da tag 1.0.
     <li> Acessar o Docker Hub (https://hub.docker.com) e verificar se a imagem foi publicada com sucesso.
 </ol>
 
@@ -53,7 +53,7 @@ Objetivo: Criar um contêiner a partir da imagem publicada no Docker Hub.
 ### Instruções
 
 <ol>
-    <li> Utilizar o comando docker run para criar e executar o container.
-    <li> Acessar a API "/aniversariante" através do navegador web.
+    <li> Utilizar o comando <b>docker run</b> para criar e executar o container.
+    <li> Acessar a API <b>/aniversariante</b> através do navegador web.
     <li> Qual foi o resultado?
 </ol>
