@@ -16,13 +16,13 @@ Objetivo: Realizar o deployment a partir de um arquivo *.yaml
 
 ## Exercício 2
  
-Objetivo: Realizar atualização parcial do deployment, de modo que, cada Pod execute um contêiner nginx e outro redis.
+Objetivo: Realizar atualização parcial do deployment, de modo que, cada Pod execute um contêiner dois contêineres, um nginx e outro redis.
 
 ### Instruções
 
 <ol>
     <li> Atualizar o deployment com o arquivo <b>demo1/lab3-patch.yaml</b>
-    <li> Listar os detalhe do deployment.</b>
+    <li> Listar os detalhes do deployment.</b>
     <li> Quantos contêineres foram aplicados ao arquivo de configuração?</b>
     <li> Listar os Pods em execução.</b>
     <li> O que mudou?</b>
