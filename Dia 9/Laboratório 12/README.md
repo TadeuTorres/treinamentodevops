@@ -18,6 +18,17 @@ Objetivo: Criar um deployment no Kubernetes
 
 ## Exercício 2
  
+Objetivo: Alterar a imagem do contêiner
+
+### Instruções
+
+<ol>
+    <li> Alterar a imagem de contêiner <b>augustocbn/governoes:3.0</b>
+    <li> Verificar nos detalhes do Pod se a imagem foi alterada.</b>
+</ol>
+
+## Exercício 3
+ 
 Objetivo: Realizar o encaminhamento de portas
 
 ### Instruções
@@ -28,7 +39,7 @@ Objetivo: Realizar o encaminhamento de portas
     <li> Qual foi o resultado?
 </ol>
 
-## Exercício 3
+## Exercício 4
  
 Objetivo: Desativar o Pod
 
@@ -40,7 +51,7 @@ Objetivo: Desativar o Pod
     <li> Qual foi o resultado?
 </ol>
 
-## Exercício 4
+## Exercício 5
  
 Objetivo: Excluir o deployment.
 
