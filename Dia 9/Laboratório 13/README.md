@@ -4,61 +4,37 @@ Tempo estimado: 30 minutos
 
 ## Exercício 1
  
-Objetivo: Criar um deployment no Kubernetes
+Objetivo: Realizar o deployment a partir de um arquivo *.yaml
 
 ### Instruções
 
 <ol>
-    <li> Criar um deployment para a imagem de contêiner <b>augustocbn/governoes:1.0</b>
-    <li> Verificar o status do Pod criado</b>
-    <li> Qual foi o resultado?
-    <li> Através do navegador web, acessar a API <b>localhost:80/secretaria</b>
+    <li> Criar um deloyment a partir da configuração contida no arquivo <b>demo1/lab3.yaml</b>
+    <li> Exibir os Pods em execução
     <li> Qual foi o resultado?
 </ol>
 
 ## Exercício 2
  
-Objetivo: Alterar a imagem do contêiner
+Objetivo: Realizar atualização parcial do deployment, de modo que, cada Pod execute um contêiner nginx e outro redis.
 
 ### Instruções
 
 <ol>
-    <li> Alterar a imagem de contêiner <b>augustocbn/governoes:3.0</b>
-    <li> Verificar nos detalhes do deployment se a imagem foi alterada.</b>
+    <li> Atualizar o deployment com o arquivo <b>demo1/lab3-patch.yaml</b>
+    <li> Listar os detalhe do deployment.</b>
+    <li> Quantos contêineres foram aplicados ao arquivo de configuração?</b>
+    <li> Listar os Pods em execução.</b>
+    <li> O que mudou?</b>
 </ol>
 
 ## Exercício 3
  
-Objetivo: Realizar o encaminhamento de portas
+Objetivo: Liberar os recursos.
 
 ### Instruções
 
 <ol>
-    <li> Realizar o encaminhamento de portas, de modo que, seja possível acessar o serviço através do navegador. O contêiner expõe a porta 80.
-    <li> Através do navegador web, acessar a API <b>localhost:[porta definida no encaminhamento]/secretaria</b>
-    <li> Qual foi o resultado?
-</ol>
-
-## Exercício 4
- 
-Objetivo: Desativar o Pod
-
-### Instruções
-
-<ol>
-    <li> Desative o Pod em execução.
-    <li> Exiba a lista de Pods.
-    <li> Qual foi o resultado?
-</ol>
-
-## Exercício 5
- 
-Objetivo: Excluir o deployment.
-
-### Instruções
-
-<ol>
-    <li> Executar o deployment.
-    <li> Exiba a lista de Pods.
-    <li> Qual foi o resultado?
+    <li> Remover todos os objetos utilizados no exercício.
+    <li> Verificar se os Pods foram removidos.
 </ol>
