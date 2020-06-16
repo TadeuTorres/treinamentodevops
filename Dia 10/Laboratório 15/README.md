@@ -9,7 +9,7 @@ Objetivo: Analisar os arquivos de composição
 ### Instruções
 
 <ol>
-    <li> Realizar o download do projeto InternetBanking <b>demo1</b>
+    <li> Realizar o download do projeto InternetBanking, contido no diretório <b>demo1</b>
     <li> Abrir o arquivo docker-compose.yaml
     <li> Analisar o conteúdo
     <li> Abrir o arquivo docker-compose-override.yaml
