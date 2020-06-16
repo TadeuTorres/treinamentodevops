@@ -1,0 +1,25 @@
+version: '3.6'
+
+networks: 
+  dockersql-network:
+    driver: bridge
+
+services:
+  internetbanking:
+    container_name: ${DOCKER_REGISTRY-}internetbanking
+    image: ${DOCKER_REGISTRY-}internetbanking
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ConnectionStrings__DefaultConnection=Data Source=192.168.1.105,1401;User ID=sa;Password=@CurSoDev0ps1;Encrypt=False;Persist Security Info=False
+    networks:
+      - dockersql-network
+    depends_on:
+      - sql.database
+
+  sql.database:
+    container_name: customsql.database
+    image: microsoft/mssql-server-linux:2017-latest
+    networks:
+      - dockersql-network
